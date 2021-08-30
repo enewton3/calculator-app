@@ -3,7 +3,7 @@ const { divide } = require("./division");
 const { multiply } = require("./multiplication");
 const { subtract } = require("./subtraction");
 
-const operators = ["+", "-", "*", "/"];
+const operators = ["*", "/", "+", "-"];
 const parens = ["(", ")"];
 
 const customEval = (str, a, b) => {
