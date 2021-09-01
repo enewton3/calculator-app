@@ -1,0 +1,58 @@
+.App {
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  text-align: center;
+}
+
+input {
+  margin: 25px auto;
+  width: 50%;
+}
+
+.keypad {
+  width: 50%;
+  margin: 0 auto;
+  display: grid;
+  grid-template-rows: 33% 33% 33%;
+  grid-template-columns: 33% 33% 33%;
+}
+
+.keypad > button {
+  margin: 5px;
+}
+
+.operators {
+  margin: 20px auto;
+  width: 50%;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.operators > button {
+  width: 20%;
+}
+
+.parens {
+  margin: 20px auto;
+  width: 50%;
+  display: flex;
+  justify-content: space-around;
+}
+
+.parens > button {
+  width: 30%;
+}
+
+.finals {
+  margin: 20px auto;
+  width: 50%;
+  display: flex;
+  justify-content: space-around;
+}
+
+.finals > button {
+  width: 40%;
+}

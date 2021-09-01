@@ -20,10 +20,6 @@ const customEval = (str, a, b) => {
 };
 
 module.exports = {
-  add,
-  divide,
-  multiply,
-  subtract,
   customEval,
   operators,
   parens,
