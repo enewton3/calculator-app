@@ -3,7 +3,6 @@ const { operators, parens } = require("../operations");
 //parseString is a function that takes a calculation string and returns an array of integers and operators, that can then be passed to a calculate function
 
 const parseString = (str) => {
-  console.log(str);
   const strArray = str.split("");
   let output = [];
   let current = "";

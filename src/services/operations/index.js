@@ -16,6 +16,8 @@ const customEval = (str, a, b) => {
       return multiply(a, b);
     case "/":
       return divide(a, b);
+    default:
+      return "No operator provided.";
   }
 };
 
