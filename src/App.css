@@ -10,6 +10,13 @@
 input {
   margin: 25px auto;
   width: 50%;
+  text-align: right;
+  height: 30px;
+  font-size: 1.4rem;
+}
+
+button {
+  font-size: 1.2rem;
 }
 
 .keypad {

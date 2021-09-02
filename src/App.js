@@ -31,6 +31,8 @@ function App() {
         To use, type or use provided buttons to input your calculation string.
         <br />
         Hit enter to commence calculation
+        <br />
+        Hit C to clear the input line
       </p>
       <Input calcString={calcString} setCalcString={setCalcString} />
       <div className="keypad">
