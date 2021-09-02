@@ -2,7 +2,6 @@ const { customEval, operators, parens } = require("../operations");
 // const { parseString } = require("../parsing");
 
 export const calculate = (calcArray, calcs = []) => {
-  console.log(calcArray);
   //check to see if the input has parens in it. if it does, recursively call this function on whatever is inside the parens first, splices the parens section off of the input array
   if (calcArray.includes(...parens)) {
     const openParen = calcArray.indexOf("(");
